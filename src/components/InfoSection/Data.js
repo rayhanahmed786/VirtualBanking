@@ -1,3 +1,4 @@
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -8,7 +9,7 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to send unlimeted transcection without getting changed any fees.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-2.svg'),
+    img: require('../../images/svg-2.svg').default,
     alt: 'Car',
     dark: true,
     primart: true,
@@ -25,7 +26,7 @@ export const homeObjTwo = {
     description: 'Get access to our exclusive app that allows you to send unlimeted transcection without getting changed any fees.',
     buttonLabel: 'Learn More',
     imgStart: true,
-    img: require('../../images/svg-2.svg'),
+    img: require('../../images/svg-2.svg').default,
     alt: 'Piggybank',
     dark: false,
     primart: false,
@@ -42,7 +43,7 @@ export const homeObjThree = {
     description: 'Get access to our exclusive app that allows you to send unlimeted transcection without getting changed any fees.',
     buttonLabel: 'Get started',
     imgStart: false,
-    img: require('../../images/svg-2.svg'),
+    img: require('../../images/svg-2.svg').default,
     alt: 'Car',
     dark: true,
     primart: true,
